@@ -32,15 +32,23 @@ aws configure set default.output json;
 
 # To check the Nodes Running 
 -kubectl get nodes
-kubectl delete pods --all
+
+# To check the pods Running 
+-kubectl get pods
+
+# To delete all the pods Running 
+-kubectl delete pods --all
 
 # To watch the Nodes 
 -kubectl get nodes --watch
 
 # To create the pod on Kubernet, We will write a  yml file and use kubectl to apply on the master
 -kubectl apply -f html1.yml
+
 -kubectl get pods
+
 -kubectl describe
+
 -kubectl get pod “name”
 
 
