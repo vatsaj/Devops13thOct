@@ -72,7 +72,8 @@ aws configure set default.output json;
 - kubectl delete Service project5 (to delete load balancer)
 
 
-# Note importtant You need to expose the nodeport fo this  and the open the ports in EC2 Security 
+# Note important 
+# You need to expose the nodeport for this  and the open the ports in EC2 Security rules 
 https://www.bmc.com/blogs/kubernetes-port-targetport-nodeport/
 
 
