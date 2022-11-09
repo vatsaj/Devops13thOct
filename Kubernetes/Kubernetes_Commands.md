@@ -18,16 +18,14 @@ aws configure set default.region ap-southeast-1;
 
 aws configure set default.output json;
 
-
-# To check the status of cluster 
-- aws eks --region ap-southeast-1 describe-cluster --name K8_Vinod --query cluster.status
-
 # To fetch all my configuration on to my kubectl
 - aws eks --region ap-southeast-1 update-kubeconfig --name K8_Vinod
 
 #  view my configuratio
 - kubectl config view
 
+# To check the status of cluster 
+- aws eks --region ap-southeast-1 describe-cluster --name K8_Vinod --query cluster.status
 
 # To check the services running in master 
 -kubectl get svc
