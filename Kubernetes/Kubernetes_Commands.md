@@ -11,8 +11,11 @@ https://docs.aws.amazon.com/eks/latest/userguide/install-kubectl.html
 
 # Update all the details here like Keys
 aws configure set aws_access_key_id AKIAWB4COEZNTOWEBB54;
+
 aws configure set aws_secret_access_key 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; 
+
 aws configure set default.region ap-southeast-1;
+
 aws configure set default.output json;
 
 
